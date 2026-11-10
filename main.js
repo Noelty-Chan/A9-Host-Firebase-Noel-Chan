@@ -47,20 +47,29 @@ const extraMenuItems = {
   ],
 };
 
-const menuImages = {
-  hot: ['https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=900&q=80', 'https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=900&q=80'],
-  cold: ['https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?auto=format&fit=crop&w=900&q=80', 'https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=900&q=80'],
-  snacks: ['https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=900&q=80', 'https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=900&q=80', 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=900&q=80'],
-  seasonal: ['https://images.unsplash.com/photo-1570968915860-54d5c301fa9f?auto=format&fit=crop&w=900&q=80', 'https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=900&q=80'],
-};
+const menuImageIds = [
+  '1521017432531-fbd92d768814', '1524350876685-274059332603', '1442512595331-e89e73853f31', '1504754524776-8f4f37790ca0',
+  '1517433670267-08bbd4be890f', '1551024506-0bccd828d307', '1586444248902-2f64eddc13df', '1587241321921-91a834d6d191',
+  '1530610476181-d83430b64dcd', '1509365465985-25d11c17e812', '1533920379810-6bedac961555', '1445116572660-236099ec97a0',
+  '1549903072-7e6e0bedb7fb', '1476224203421-9ac39bcb3327', '1484723091739-30a097e8f929', '1490645935967-10de6ba17061',
+  '1555939594-58d7cb561ad1', '1546069901-ba9599a7e63c', '1442975631115-c4f7b05b8a2c', '1520209759809-a9bcb6cb3241',
+  '1525351484163-7529414344d8', '1572442388796-11668a67e53d', '1466637574441-749b8f19452f', '1517701550927-30cf4ba1dba5',
+  '1514432324607-a09d9b4aefdd', '1570968915860-54d5c301fa9f', '1461023058943-07fcbe16d735', '1516035069371-29a1b244cc32',
+  '1527515637462-cff94eecc1ac', '1517248135467-4c7edcad34c4', '1512621776951-a57141f2eefd', '1540189549336-e6e99c3679fe',
+  '1485808191679-5f86510681a2', '1554118811-1e0d58224f24', '1544787219-7f47ccb76574', '1481833761820-0509d3217039',
+  '1493857671505-72967e2e2760', '1547592180-85f173990554',
+];
 
 const menuGrid = document.querySelector('.menu-grid');
+let imageLock = 11;
 Object.entries(extraMenuItems).forEach(([category, items]) => {
   items.forEach(([name, description, price], index) => {
     const card = document.createElement('article');
     card.className = 'menu-card';
     card.dataset.category = category;
-    const image = menuImages[category][index % menuImages[category].length];
+    const imageId = menuImageIds[imageLock - 11];
+    const image = `https://images.unsplash.com/photo-${imageId}?auto=format&fit=crop&w=900&q=80`;
+    imageLock++;
     card.innerHTML = `<div class="card-image"><img src="${image}" alt="${name}" loading="lazy"><span class="card-tag">GOOD DAY FAVOURITE</span></div><div class="card-info"><div><h3>${name}</h3><p>${description}</p></div><b>${price}</b></div>`;
     menuGrid.append(card);
   });
@@ -82,6 +91,9 @@ tabs.forEach((tab) => {
     });
   });
 });
+
+// The first tab is Seasonal, so make its selection match the initial card view.
+tabs[0].click();
 
 const menuToggle = document.querySelector('.menu-toggle');
 const nav = document.querySelector('.nav-links');
