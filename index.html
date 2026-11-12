@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#fff5cf">
   <meta name="description"
-    content="PokéCafé — a Pokémon-inspired trainer rest stop serving cozy drinks and treats in Vancouver.">
-  <title>PokéCafé — Recharge for your next adventure</title>
+    content="Pokémon Café — a Pokémon-inspired trainer rest stop serving cozy drinks and treats in Vancouver.">
+  <title>Pokémon Café — Recharge for your next adventure</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -18,168 +18,52 @@
 
 <body>
   <header class="site-header">
-    <a class="wordmark" href="#home" aria-label="PokéCafé home"><span class="mark"><span class="pokeball-mark" aria-hidden="true"></span></span><span>PokéCafé
+    <a class="wordmark" href="#home" aria-label="Pokémon Café home"><span class="mark"><span class="pokeball-mark" aria-hidden="true"></span></span><span>Pokémon Café
         <small>a trainer's café</small></span></a>
     <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
     <nav class="nav-links" aria-label="Main navigation">
       <a href="#home">Home</a><a href="#menu">Menu</a><a href="#contact">Contact</a>
-      <button class="nav-order order-open" type="button">Your pack <span class="order-count">0</span></button>
+      <button class="nav-order order-open" type="button">Your order <span class="order-count">0</span></button>
     </nav>
   </header>
+
+  <aside class="fan-notice" role="note" aria-label="Fan-made site notice">
+    <strong>Unofficial fan-made concept</strong>
+    <span>Not affiliated with, endorsed by, or connected to Nintendo, Creatures, Game Freak, or The Pokémon Company.</span>
+  </aside>
 
   <main>
     <section class="hero" id="home">
       <div class="hero-copy">
-        <p class="eyebrow"><span class="sun">✳</span> A TRAINER'S FAVOURITE REST STOP</p>
         <h1>Recharge for<br>your next<br><em>adventure.</em></h1>
         <p class="hero-intro">Catch your breath, grab a berry-sweet treat, and power up with a little Pokémon magic at our Vancouver café.</p>
         <div class="hero-actions"><a class="button button-dark" href="#menu">Explore the menu <span>↗</span></a><a
             class="text-link" href="#contact">Find our café <span>↓</span></a></div>
-        <div class="hero-note"><span class="note-icon">⚡</span><span><strong>Good vibes. Full HP.</strong><small>Open daily · 8am – 5pm</small></span></div>
       </div>
       <div class="hero-image-wrap">
         <img class="hero-image"
-          src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=1500&q=85"
-          alt="Warm café counter ready for a trainer's coffee break">
-        <div class="image-label"><span>TRAINER PIT STOP</span><b>POKÉCAFÉ</b><i>Vancouver, BC</i></div>
-        <div class="pokemon-companion"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png" alt="Pikachu"><span>PIKACHU SAYS HI</span></div>
+          src="https://www.pokemon-cafe.jp/common/img/cafe_website_02.jpg"
+          alt="Official Pokémon Café visual featured in the café's main page">
+        <div class="image-label"><span>TRAINER PIT STOP</span><b>POKÉMON CAFÉ</b><i>Vancouver, BC</i></div>
         <span class="image-spark">⚡</span>
       </div>
-      <div class="hero-side">YOUR NEXT ADVENTURE STARTS HERE · EST. 2019</div>
-    </section>
-
-    <section class="feature-strip" aria-label="What we care about">
-      <div><span>01</span><b>Electric energy</b><small>Good coffee, instant boost</small></div>
-      <div><span>02</span><b>Berry fresh</b><small>Made for every adventure</small></div>
-      <div><span>03</span><b>Trainer friendly</b><small>Every Pokémon is welcome</small></div>
     </section>
 
     <section class="menu-section section-pad" id="menu">
       <div class="section-heading">
         <div>
-          <p class="eyebrow">TRAINER-TESTED FAVOURITES</p>
-          <h2>Choose your<br><em>power-up.</em></h2>
+          <h2>Choose your<br><em>favourites.</em></h2>
         </div>
-        <p>From electric espresso to berry-inspired bakes, pick a treat for the next leg of your journey.</p>
+        <p>Fan-made concept menu referencing items and photos from the <a href="https://www.pokemon-cafe.jp/en/cafe/menu/" target="_blank" rel="noreferrer">official Pokémon Café menu</a>. This site is independent and unaffiliated; prices are shown in yen for reference.</p>
       </div>
-      <div class="menu-tabs" role="tablist" aria-label="Menu categories"><button class="active" data-filter="seasonal"
-          role="tab" aria-selected="true">Seasonal</button><button data-filter="hot" role="tab"
-          aria-selected="false">Hot Drinks</button><button data-filter="cold" role="tab" aria-selected="false">Cold
-          Drinks</button><button data-filter="snacks" role="tab" aria-selected="false">Snacks</button></div>
+      <div class="menu-tabs" role="tablist" aria-label="Menu categories"><button class="active" data-filter="food"
+          role="tab" aria-selected="true">Food</button><button data-filter="sweets" role="tab"
+          aria-selected="false">Sweets</button><button data-filter="drinks" role="tab"
+          aria-selected="false">Drinks</button><button data-filter="pokemon-latte" role="tab"
+          aria-selected="false">Choose Your Pokémon Latte</button></div>
       <div class="menu-grid">
-        <article class="menu-card" data-category="hot">
-          <div class="card-image"><img
-              src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=900&q=80"
-              alt="Honey oat latte with delicate latte art"><span class="card-tag">LACTOSE-FREE</span></div>
-          <div class="card-info">
-            <div>
-              <h3>Pikachu's Charged Honey Latte</h3>
-              <p>Double espresso, oat milk, and a sweet honey spark</p>
-            </div><b>$6.25</b>
-          </div>
-        </article>
-        <article class="menu-card" data-category="hot">
-          <div class="card-image"><img
-              src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=80"
-              alt="Espresso coffee in a ceramic cup"><span class="card-tag">VEGAN</span></div>
-          <div class="card-info">
-            <div>
-              <h3>Team Rocket Double Espresso</h3>
-              <p>A bold little shot for sneaky adventures</p>
-            </div><b>$3.50</b>
-          </div>
-        </article>
-        <article class="menu-card" data-category="hot">
-          <div class="card-image"><img
-              src="https://images.unsplash.com/photo-1497515114629-f71d768fd07c?auto=format&fit=crop&w=900&q=80"
-              alt="Cappuccino topped with latte art"><span class="card-tag">GLUTEN-FREE</span></div>
-          <div class="card-info">
-            <div>
-              <h3>Charmander Ember Cappuccino</h3>
-              <p>Espresso, silky milk, and a warm maple finish</p>
-            </div><b>$5.50</b>
-          </div>
-        </article>
-        <article class="menu-card" data-category="cold">
-          <div class="card-image"><img
-              src="https://images.unsplash.com/photo-1498804103079-a6351b050096?auto=format&fit=crop&w=900&q=80"
-              alt="Iced coffee with milk"><span class="card-tag">VEGAN</span></div>
-          <div class="card-info">
-            <div>
-              <h3>Squirtle Splash Cold Brew</h3>
-              <p>Slow-steeped coffee poured over cool, clear ice</p>
-            </div><b>$5.75</b>
-          </div>
-        </article>
-        <article class="menu-card" data-category="cold">
-          <div class="card-image"><img
-              src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80"
-              alt="Iced latte with cold milk"><span class="card-tag">GLUTEN-FREE</span></div>
-          <div class="card-info">
-            <div>
-              <h3>Eevee's Evolving Iced Latte</h3>
-              <p>Espresso, cold milk, and a smooth vanilla swirl</p>
-            </div><b>$5.95</b>
-          </div>
-        </article>
-        <article class="menu-card" data-category="snacks">
-          <div class="card-image"><img
-              src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=900&q=80"
-              alt="Freshly baked croissants"><span class="card-tag">VEGETARIAN</span></div>
-          <div class="card-info">
-            <div>
-              <h3>Togepi's Golden Croissant</h3>
-              <p>Flaky, golden, and perfect for a little break</p>
-            </div><b>$4.50</b>
-          </div>
-        </article>
-        <article class="menu-card" data-category="snacks">
-          <div class="card-image"><img
-              src="https://images.unsplash.com/photo-1504630083234-14187a9df0f5?auto=format&fit=crop&w=900&q=80"
-              alt="Freshly baked cinnamon pastry"><span class="card-tag">VEGETARIAN</span></div>
-          <div class="card-info">
-            <div>
-              <h3>Fuecoco's Cinnamon Swirl</h3>
-              <p>Buttery layers with a cozy cinnamon sparkle</p>
-            </div><b>$4.75</b>
-          </div>
-        </article>
-        <article class="menu-card" data-category="snacks">
-          <div class="card-image"><img
-              src="https://images.unsplash.com/photo-1511537190424-bbbab87ac5eb?auto=format&fit=crop&w=900&q=80"
-              alt="Slice of chocolate cake"><span class="card-tag">VEGETARIAN</span></div>
-          <div class="card-info">
-            <div>
-              <h3>Mewtwo's Cocoa Cloud Cake</h3>
-              <p>Dark chocolate, soft cream, psychic-level delicious</p>
-            </div><b>$7.00</b>
-          </div>
-        </article>
-        <article class="menu-card" data-category="seasonal">
-          <div class="card-image"><img
-              src="https://images.unsplash.com/photo-1559056199-641a0ac8b55e?auto=format&fit=crop&w=900&q=80"
-              alt="Warm spiced latte"><span class="card-tag">GLUTEN-FREE</span></div>
-          <div class="card-info">
-            <div>
-              <h3>Charizard's Spiced Maple Latte</h3>
-              <p>Espresso, maple, cinnamon, and cozy steamed milk</p>
-            </div><b>$6.50</b>
-          </div>
-        </article>
-        <article class="menu-card" data-category="seasonal">
-          <div class="card-image"><img
-              src="https://images.unsplash.com/photo-1507914372368-b2b085b925a1?auto=format&fit=crop&w=900&q=80"
-              alt="Seasonal apple pastry"><span class="card-tag">VEGETARIAN</span></div>
-          <div class="card-info">
-            <div>
-              <h3>Appletun's Apple Crumble Danish</h3>
-              <p>Flaky pastry, spiced apple, and golden oat crumble</p>
-            </div><b>$5.25</b>
-          </div>
-        </article>
       </div>
-      <div class="center-link"><a class="button button-outline" href="#contact">Visit us for the full menu
-          <span>↗</span></a></div>
+      <div class="center-link"><a class="button button-outline" href="https://www.pokemon-cafe.jp/en/cafe/menu/" target="_blank" rel="noreferrer">View the official menu <span>↗</span></a></div>
     </section>
 
     <section class="quote-section">
@@ -191,55 +75,51 @@
 
     <section class="story-section section-pad" id="story">
       <div class="story-image"><img
-          src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=1200&q=85"
-          alt="Warm and welcoming Pokémon trainer café interior">
-        <div class="round-stamp">TRAINERS<br>POKÉMON<br>GOOD<br>TOGETHER</div>
+          src="https://www.pokemon-cafe.jp/common/img/main03_02.jpg"
+          alt="Pokémon Café concept visual from the official website">
       </div>
       <div class="story-copy">
-        <p class="eyebrow">A LITTLE ABOUT OUR TRAINER'S STOP</p>
         <h2>A cozy stop<br>for every<br><em>adventure.</em></h2>
-        <p>PokéCafé is a fan-inspired Pokémon café concept built around the joy of discovering new places, meeting new friends, and sharing a good snack.</p>
-        <p>We’re a small, independent café in Vancouver. Trainers, Pokémon, and curious newcomers are all welcome to pull up a chair and recharge.</p><a class="text-link" href="#contact">Plan your visit
+      <p>This unofficial, fictional Pokémon Café concept is a fan-made project built around the joy of discovering new places, meeting new friends, and sharing a good snack.</p>
+        <p>It is not an actual Pokémon Café location or an official Pokémon product. The Vancouver address and café details are part of this fictional website concept.</p><a class="text-link" href="#contact">Plan your visit
           <span>↗</span></a>
       </div>
     </section>
 
     <section class="visit-section" id="contact">
       <div class="visit-copy">
-        <p class="eyebrow">YOUR NEXT REST STOP</p>
         <h2>Adventure<br>starts <em>here.</em></h2>
-        <p>Find our trainer-friendly café on Main Street, Vancouver.</p>
+        <p>A fictional fan-made café concept. This is not an official Pokémon Café location.</p>
         <div class="visit-details">
           <div><span>⌖</span>
-            <p><b>PokéCafé</b><br>428 Main Street<br>Vancouver, BC V5T 3C3</p>
+        <p><b>Fictional concept address</b><br>428 Main Street<br>Vancouver, BC V5T 3C3</p>
           </div>
           <div><span>◷</span>
             <p><b>Every single day</b><br>Monday – Sunday<br>8:00 am – 5:00 pm</p>
           </div>
           <div><span>✉</span>
             <p><b>Get in touch</b><br><a href="tel:+16045550184">(604) 555-0184</a><br><a
-                href="mailto:hello@pokecafe.example">hello@pokecafe.example</a></p>
+                href="mailto:hello@pokemoncafe.example">hello@pokemoncafe.example</a></p>
           </div>
         </div><a class="button button-light" href="https://maps.google.com/?q=428+Main+Street+Vancouver+BC"
           target="_blank" rel="noreferrer">Get directions <span>↗</span></a>
       </div>
       <div class="visit-image"><img
-          src="https://images.unsplash.com/photo-1442975631115-c4f7b05b8a2c?auto=format&fit=crop&w=1300&q=85"
-          alt="A cozy table set for a Pokémon trainer's café break"><span class="visit-caption">428 MAIN ST. · VANCOUVER</span></div>
+          src="https://www.pokemon-cafe.jp/common/img/bg_access.jpg"
+          alt="Pokémon Café access visual from the official website"></div>
     </section>
   </main>
   <dialog class="order-dialog" id="order-dialog" aria-labelledby="order-title">
     <div class="order-dialog-heading">
       <div>
-        <p class="eyebrow">POKÉCAFÉ</p>
         <h2 id="order-title">Trainer pack</h2>
       </div><button class="dialog-close" type="button" aria-label="Close order dialog">×</button>
     </div>
     <section class="cart-view">
       <p class="cart-empty">Your order is empty. Pick a power-up from the menu.</p>
       <div class="cart-items" aria-live="polite"></div>
-      <div class="cart-total"><span>Subtotal</span><strong>$0.00</strong></div>
-      <p class="checkout-note">Pickup at PokéCafé · Pay at pickup. This demo keeps your order in this browser.
+      <div class="cart-total"><span>Subtotal</span><strong>¥0</strong></div>
+      <p class="checkout-note">Fictional fan-made café demo · No real orders or payments are accepted. Your order stays in this browser.
       </p>
       <button class="button button-dark checkout-start" type="button" disabled>Continue to checkout
         <span>↗</span></button>
@@ -254,8 +134,8 @@
           <option value="30 min">In about 30 minutes</option>
           <option value="45 min">In about 45 minutes</option>
         </select></label>
-      <div class="cart-total checkout-total"><span>Order subtotal</span><strong>$0.00</strong></div>
-      <p class="checkout-note">This demo does not send orders or take payment. Show your order summary to café staff.
+      <div class="cart-total checkout-total"><span>Order subtotal</span><strong>¥0</strong></div>
+      <p class="checkout-note">This unofficial fan-made demo does not send orders or take payment. No real café staff or pickup service is connected.
       </p>
       <button class="button button-dark" type="submit">Prepare pickup summary <span>↗</span></button>
       <button class="back-to-cart" type="button">← Back to your order</button>
@@ -271,11 +151,10 @@
       <button class="button button-dark finish-order" type="button">Back to the Poké-menu</button>
     </section>
   </dialog>
-  <footer><a class="wordmark footer-mark" href="#home"><span class="mark"><span class="pokeball-mark" aria-hidden="true"></span></span><span>PokéCafé <small>a trainer's café</small></span></a>
-    <p>Good snacks. Good Pokémon. Great adventures.</p>
-    <div class="social-links"><a href="#contact">Contact ↗</a><a href="mailto:hello@pokecafe.example">Say hello
-        ↗</a></div><small class="copyright">© 2026 POKÉCAFÉ · FAN-MADE CONCEPT · POKÉMON AND ITS CHARACTERS ARE TRADEMARKS OF THEIR RESPECTIVE OWNERS</small>
-    <a class="asset-credit" href="https://github.com/PokeAPI/sprites" target="_blank" rel="noreferrer">Pokémon sprites via PokeAPI Sprites</a>
+  <footer><a class="wordmark footer-mark" href="#home"><span class="mark"><span class="pokeball-mark" aria-hidden="true"></span></span><span>Pokémon Café <small>a trainer's café</small></span></a>
+    <div class="social-links"><a href="#contact">Contact ↗</a><a href="mailto:hello@pokemoncafe.example">Say hello
+        ↗</a></div><small class="copyright">Unofficial fan-made concept. Not affiliated with or endorsed by Nintendo, Creatures, Game Freak, or The Pokémon Company. Pokémon and related marks belong to their respective owners.</small>
+    <a class="asset-credit" href="https://www.pokemon-cafe.jp/en/cafe/" target="_blank" rel="noreferrer">Reference visuals from the official Pokémon Café website · This site is independently made and unofficial</a>
   </footer>
   <script src="main.js"></script>
   <script type="module">
