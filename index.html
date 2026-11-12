@@ -4,64 +4,63 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f6f3eb">
+  <meta name="theme-color" content="#fff5cf">
   <meta name="description"
-    content="Good Day Coffee — thoughtful coffee, little rituals, and very good things to eat in Vancouver.">
-  <title>Good Day Coffee — A little pause in your day</title>
+    content="PokéCafé — a Pokémon-inspired trainer rest stop serving cozy drinks and treats in Vancouver.">
+  <title>PokéCafé — Recharge for your next adventure</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Nunito:wght@400;500;600;700;800;900&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <header class="site-header">
-    <a class="wordmark" href="#home" aria-label="Good Day Coffee home"><span class="mark">g.</span><span>good day
-        <small>coffee & company</small></span></a>
+    <a class="wordmark" href="#home" aria-label="PokéCafé home"><span class="mark"><span class="pokeball-mark" aria-hidden="true"></span></span><span>PokéCafé
+        <small>a trainer's café</small></span></a>
     <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
     <nav class="nav-links" aria-label="Main navigation">
       <a href="#home">Home</a><a href="#menu">Menu</a><a href="#contact">Contact</a>
-      <button class="nav-order order-open" type="button">Your order <span class="order-count">0</span></button>
+      <button class="nav-order order-open" type="button">Your pack <span class="order-count">0</span></button>
     </nav>
   </header>
 
   <main>
     <section class="hero" id="home">
       <div class="hero-copy">
-        <p class="eyebrow"><span class="sun">✳</span> YOUR NEIGHBOURHOOD COFFEE SPOT</p>
-        <h1>A little pause<br>in your <em>day.</em></h1>
-        <p class="hero-intro">Thoughtfully made coffee, something lovely to eat, and a place to stay a while. Your
-          neighbourhood table is waiting.</p>
+        <p class="eyebrow"><span class="sun">✳</span> A TRAINER'S FAVOURITE REST STOP</p>
+        <h1>Recharge for<br>your next<br><em>adventure.</em></h1>
+        <p class="hero-intro">Catch your breath, grab a berry-sweet treat, and power up with a little Pokémon magic at our Vancouver café.</p>
         <div class="hero-actions"><a class="button button-dark" href="#menu">Explore the menu <span>↗</span></a><a
-            class="text-link" href="#contact">Come say hello <span>↓</span></a></div>
-        <div class="hero-note"><span class="note-icon">☕</span><span><strong>Made with care, served with a
-              smile.</strong><small>Open daily · 8am – 5pm</small></span></div>
+            class="text-link" href="#contact">Find our café <span>↓</span></a></div>
+        <div class="hero-note"><span class="note-icon">⚡</span><span><strong>Good vibes. Full HP.</strong><small>Open daily · 8am – 5pm</small></span></div>
       </div>
       <div class="hero-image-wrap">
         <img class="hero-image"
           src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=1500&q=85"
-          alt="Freshly brewed coffee being prepared at the bar">
-        <div class="image-label"><span>GOOD COFFEE</span><b>GOOD COMPANY</b><i>Vancouver, BC</i></div>
-        <span class="image-spark">✳</span>
+          alt="Warm café counter ready for a trainer's coffee break">
+        <div class="image-label"><span>TRAINER PIT STOP</span><b>POKÉCAFÉ</b><i>Vancouver, BC</i></div>
+        <div class="pokemon-companion"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png" alt="Pikachu"><span>PIKACHU SAYS HI</span></div>
+        <span class="image-spark">⚡</span>
       </div>
-      <div class="hero-side">A GOOD DAY STARTS HERE · EST. 2019</div>
+      <div class="hero-side">YOUR NEXT ADVENTURE STARTS HERE · EST. 2019</div>
     </section>
 
     <section class="feature-strip" aria-label="What we care about">
-      <div><span>01</span><b>Thoughtful beans</b><small>Responsibly sourced, always</small></div>
-      <div><span>02</span><b>Made fresh daily</b><small>Little-batch, big-hearted</small></div>
-      <div><span>03</span><b>Room for everyone</b><small>Your table is waiting</small></div>
+      <div><span>01</span><b>Electric energy</b><small>Good coffee, instant boost</small></div>
+      <div><span>02</span><b>Berry fresh</b><small>Made for every adventure</small></div>
+      <div><span>03</span><b>Trainer friendly</b><small>Every Pokémon is welcome</small></div>
     </section>
 
     <section class="menu-section section-pad" id="menu">
       <div class="section-heading">
         <div>
-          <p class="eyebrow">A FEW HOUSE FAVOURITES</p>
-          <h2>Good things<br><em>on the menu.</em></h2>
+          <p class="eyebrow">TRAINER-TESTED FAVOURITES</p>
+          <h2>Choose your<br><em>power-up.</em></h2>
         </div>
-        <p>From your first sip to that one-more-bite moment. Everything is made to make your day a little better.</p>
+        <p>From electric espresso to berry-inspired bakes, pick a treat for the next leg of your journey.</p>
       </div>
       <div class="menu-tabs" role="tablist" aria-label="Menu categories"><button class="active" data-filter="seasonal"
           role="tab" aria-selected="true">Seasonal</button><button data-filter="hot" role="tab"
@@ -74,8 +73,8 @@
               alt="Honey oat latte with delicate latte art"><span class="card-tag">LACTOSE-FREE</span></div>
           <div class="card-info">
             <div>
-              <h3>Honey oat latte</h3>
-              <p>Double espresso, oat milk, local honey</p>
+              <h3>Pikachu's Charged Honey Latte</h3>
+              <p>Double espresso, oat milk, and a sweet honey spark</p>
             </div><b>$6.25</b>
           </div>
         </article>
@@ -85,8 +84,8 @@
               alt="Espresso coffee in a ceramic cup"><span class="card-tag">VEGAN</span></div>
           <div class="card-info">
             <div>
-              <h3>Double espresso</h3>
-              <p>Rich, balanced, ethically sourced beans</p>
+              <h3>Team Rocket Double Espresso</h3>
+              <p>A bold little shot for sneaky adventures</p>
             </div><b>$3.50</b>
           </div>
         </article>
@@ -96,8 +95,8 @@
               alt="Cappuccino topped with latte art"><span class="card-tag">GLUTEN-FREE</span></div>
           <div class="card-info">
             <div>
-              <h3>Maple cappuccino</h3>
-              <p>Espresso, silky milk, a little maple</p>
+              <h3>Charmander Ember Cappuccino</h3>
+              <p>Espresso, silky milk, and a warm maple finish</p>
             </div><b>$5.50</b>
           </div>
         </article>
@@ -107,8 +106,8 @@
               alt="Iced coffee with milk"><span class="card-tag">VEGAN</span></div>
           <div class="card-info">
             <div>
-              <h3>Cloud nine cold brew</h3>
-              <p>Slow-steeped for 18 hours, poured over ice</p>
+              <h3>Squirtle Splash Cold Brew</h3>
+              <p>Slow-steeped coffee poured over cool, clear ice</p>
             </div><b>$5.75</b>
           </div>
         </article>
@@ -118,8 +117,8 @@
               alt="Iced latte with cold milk"><span class="card-tag">GLUTEN-FREE</span></div>
           <div class="card-info">
             <div>
-              <h3>Vanilla iced latte</h3>
-              <p>Our espresso, cold milk, house vanilla</p>
+              <h3>Eevee's Evolving Iced Latte</h3>
+              <p>Espresso, cold milk, and a smooth vanilla swirl</p>
             </div><b>$5.95</b>
           </div>
         </article>
@@ -129,8 +128,8 @@
               alt="Freshly baked croissants"><span class="card-tag">VEGETARIAN</span></div>
           <div class="card-info">
             <div>
-              <h3>Butter me up croissant</h3>
-              <p>Flaky, golden, from our friends at Flourist</p>
+              <h3>Togepi's Golden Croissant</h3>
+              <p>Flaky, golden, and perfect for a little break</p>
             </div><b>$4.50</b>
           </div>
         </article>
@@ -140,8 +139,8 @@
               alt="Freshly baked cinnamon pastry"><span class="card-tag">VEGETARIAN</span></div>
           <div class="card-info">
             <div>
-              <h3>Cinnamon morning bun</h3>
-              <p>Buttery layers with cinnamon sugar</p>
+              <h3>Fuecoco's Cinnamon Swirl</h3>
+              <p>Buttery layers with a cozy cinnamon sparkle</p>
             </div><b>$4.75</b>
           </div>
         </article>
@@ -151,8 +150,8 @@
               alt="Slice of chocolate cake"><span class="card-tag">VEGETARIAN</span></div>
           <div class="card-info">
             <div>
-              <h3>Chocolate cloud cake</h3>
-              <p>Dark chocolate, soft cream, no regrets</p>
+              <h3>Mewtwo's Cocoa Cloud Cake</h3>
+              <p>Dark chocolate, soft cream, psychic-level delicious</p>
             </div><b>$7.00</b>
           </div>
         </article>
@@ -162,8 +161,8 @@
               alt="Warm spiced latte"><span class="card-tag">GLUTEN-FREE</span></div>
           <div class="card-info">
             <div>
-              <h3>Spiced maple latte</h3>
-              <p>Espresso, maple, cinnamon, steamed milk</p>
+              <h3>Charizard's Spiced Maple Latte</h3>
+              <p>Espresso, maple, cinnamon, and cozy steamed milk</p>
             </div><b>$6.50</b>
           </div>
         </article>
@@ -173,8 +172,8 @@
               alt="Seasonal apple pastry"><span class="card-tag">VEGETARIAN</span></div>
           <div class="card-info">
             <div>
-              <h3>Apple crumble danish</h3>
-              <p>Flaky pastry, spiced apple, oat crumble</p>
+              <h3>Appletun's Apple Crumble Danish</h3>
+              <p>Flaky pastry, spiced apple, and golden oat crumble</p>
             </div><b>$5.25</b>
           </div>
         </article>
@@ -185,64 +184,62 @@
 
     <section class="quote-section">
       <div class="quote-mark">“</div>
-      <blockquote>It's the kind of place that makes an ordinary Tuesday feel like a <em>good day.</em></blockquote>
-      <p>— JESS, OUR REGULAR SINCE DAY ONE</p>
+      <blockquote>Even a Pokémon Champion needs a cozy place to <em>recharge.</em></blockquote>
+      <p>— A TRAINER'S NOTE FROM THE ROAD</p>
       <div class="quote-dots"><span></span><span></span><span></span></div>
     </section>
 
     <section class="story-section section-pad" id="story">
       <div class="story-image"><img
           src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=1200&q=85"
-          alt="Sunlit neighbourhood cafe interior">
-        <div class="round-stamp">GOOD<br>PEOPLE<br>GOOD<br>COFFEE</div>
+          alt="Warm and welcoming Pokémon trainer café interior">
+        <div class="round-stamp">TRAINERS<br>POKÉMON<br>GOOD<br>TOGETHER</div>
       </div>
       <div class="story-copy">
-        <p class="eyebrow">A LITTLE ABOUT US</p>
-        <h2>We believe in<br>the <em>everyday</em><br>good stuff.</h2>
-        <p>Good Day started with a simple idea: make really good coffee, treat people like neighbours, and make room for
-          the little moments that make a day.</p>
-        <p>We’re a small, independent café in the heart of Mount Pleasant. Our beans come from people who care as much
-          as we do, and our door is open to everyone.</p><a class="text-link" href="#contact">Get to know us
+        <p class="eyebrow">A LITTLE ABOUT OUR TRAINER'S STOP</p>
+        <h2>A cozy stop<br>for every<br><em>adventure.</em></h2>
+        <p>PokéCafé is a fan-inspired Pokémon café concept built around the joy of discovering new places, meeting new friends, and sharing a good snack.</p>
+        <p>We’re a small, independent café in Vancouver. Trainers, Pokémon, and curious newcomers are all welcome to pull up a chair and recharge.</p><a class="text-link" href="#contact">Plan your visit
           <span>↗</span></a>
       </div>
     </section>
 
     <section class="visit-section" id="contact">
       <div class="visit-copy">
-        <p class="eyebrow">YOUR TABLE IS WAITING</p>
-        <h2>Come on<br><em>over.</em></h2>
-        <p>Find us on Main Street, right where the good stuff happens.</p>
+        <p class="eyebrow">YOUR NEXT REST STOP</p>
+        <h2>Adventure<br>starts <em>here.</em></h2>
+        <p>Find our trainer-friendly café on Main Street, Vancouver.</p>
         <div class="visit-details">
           <div><span>⌖</span>
-            <p><b>Good Day Coffee</b><br>428 Main Street<br>Vancouver, BC V5T 3C3</p>
+            <p><b>PokéCafé</b><br>428 Main Street<br>Vancouver, BC V5T 3C3</p>
           </div>
           <div><span>◷</span>
             <p><b>Every single day</b><br>Monday – Sunday<br>8:00 am – 5:00 pm</p>
           </div>
           <div><span>✉</span>
             <p><b>Get in touch</b><br><a href="tel:+16045550184">(604) 555-0184</a><br><a
-                href="mailto:hello@gooddaycoffee.example">hello@gooddaycoffee.example</a></p>
+                href="mailto:hello@pokecafe.example">hello@pokecafe.example</a></p>
           </div>
         </div><a class="button button-light" href="https://maps.google.com/?q=428+Main+Street+Vancouver+BC"
           target="_blank" rel="noreferrer">Get directions <span>↗</span></a>
       </div>
       <div class="visit-image"><img
           src="https://images.unsplash.com/photo-1442975631115-c4f7b05b8a2c?auto=format&fit=crop&w=1300&q=85"
-          alt="Coffee and pastry on a cafe table"><span class="visit-caption">428 MAIN ST. · MOUNT PLEASANT</span></div>
+          alt="A cozy table set for a Pokémon trainer's café break"><span class="visit-caption">428 MAIN ST. · VANCOUVER</span></div>
     </section>
   </main>
   <dialog class="order-dialog" id="order-dialog" aria-labelledby="order-title">
     <div class="order-dialog-heading">
       <div>
-        <p class="eyebrow">GOOD DAY COFFEE</p>
-        <h2 id="order-title">Your order</h2>
+        <p class="eyebrow">POKÉCAFÉ</p>
+        <h2 id="order-title">Trainer pack</h2>
       </div><button class="dialog-close" type="button" aria-label="Close order dialog">×</button>
     </div>
     <section class="cart-view">
-      <p class="cart-empty">Your order is empty. Add something lovely from the menu.</p>
+      <p class="cart-empty">Your order is empty. Pick a power-up from the menu.</p>
       <div class="cart-items" aria-live="polite"></div>
       <div class="cart-total"><span>Subtotal</span><strong>$0.00</strong></div>
-      <p class="checkout-note">Pickup at Good Day Coffee · Pay at pickup. This demo keeps your order in this browser.
+      <p class="checkout-note">Pickup at PokéCafé · Pay at pickup. This demo keeps your order in this browser.
       </p>
       <button class="button button-dark checkout-start" type="button" disabled>Continue to checkout
         <span>↗</span></button>
@@ -271,14 +268,14 @@
       <p>Email on this order: <span class="customer-email"></span></p>
       <p class="pickup-message"></p>
       <p class="confirmation-total"></p>
-      <button class="button button-dark finish-order" type="button">Back to the menu</button>
+      <button class="button button-dark finish-order" type="button">Back to the Poké-menu</button>
     </section>
   </dialog>
-  <footer><a class="wordmark footer-mark" href="#home"><span class="mark">g.</span><span>good day <small>coffee &
-          company</small></span></a>
-    <p>Good coffee. Good people. Good day.</p>
-    <div class="social-links"><a href="#contact">Contact ↗</a><a href="mailto:hello@gooddaycoffee.example">Say hello
-        ↗</a></div><small class="copyright">© 2026 GOOD DAY COFFEE · ALL RIGHTS RESERVED</small>
+  <footer><a class="wordmark footer-mark" href="#home"><span class="mark"><span class="pokeball-mark" aria-hidden="true"></span></span><span>PokéCafé <small>a trainer's café</small></span></a>
+    <p>Good snacks. Good Pokémon. Great adventures.</p>
+    <div class="social-links"><a href="#contact">Contact ↗</a><a href="mailto:hello@pokecafe.example">Say hello
+        ↗</a></div><small class="copyright">© 2026 POKÉCAFÉ · FAN-MADE CONCEPT · POKÉMON AND ITS CHARACTERS ARE TRADEMARKS OF THEIR RESPECTIVE OWNERS</small>
+    <a class="asset-credit" href="https://github.com/PokeAPI/sprites" target="_blank" rel="noreferrer">Pokémon sprites via PokeAPI Sprites</a>
   </footer>
   <script src="main.js"></script>
   <script type="module">

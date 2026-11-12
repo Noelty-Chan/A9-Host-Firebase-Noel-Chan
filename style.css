@@ -1,14 +1,14 @@
 :root {
-    --cream: #f6f3eb;
-    --paper: #fffdf8;
-    --green: #183b32;
-    --sage: #dce4d8;
-    --orange: #d9784d;
-    --ink: #242d27;
-    --muted: #777a70;
-    --line: #dcdace;
-    --serif: 'Playfair Display', Georgia, serif;
-    --sans: 'DM Sans', Arial, sans-serif
+    --cream: #fff6d8;
+    --paper: #fffdf3;
+    --green: #263c78;
+    --sage: #e7edc7;
+    --orange: #e84c42;
+    --ink: #252b3b;
+    --muted: #727585;
+    --line: #e2dbc4;
+    --serif: 'Bree Serif', Georgia, serif;
+    --sans: 'Nunito', Arial, sans-serif
 }
 
 * {
@@ -81,6 +81,36 @@ button {
     display: grid;
     place-items: center;
     line-height: 1
+}
+
+.mark {
+    background: transparent;
+    color: transparent;
+    padding: 5px
+}
+
+.pokeball-mark {
+    position: relative;
+    display: block;
+    width: 32px;
+    height: 32px;
+    border: 3px solid #24283a;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, #e84c42 0 45%, #24283a 45% 56%, #fffdf3 56% 100%);
+    overflow: hidden
+}
+
+.pokeball-mark::after {
+    content: '';
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid #24283a;
+    border-radius: 50%;
+    background: #fffdf3
 }
 
 .nav-links {
@@ -1479,6 +1509,61 @@ footer>p {
     margin-top: 12px;
     border: 0;
     cursor: pointer
+}
+
+.pokemon-companion {
+    position: absolute;
+    z-index: 3;
+    left: 8%;
+    bottom: 12%;
+    display: grid;
+    justify-items: center;
+    gap: 2px;
+    transform: rotate(-5deg)
+}
+
+.pokemon-companion img {
+    width: clamp(72px, 10vw, 126px);
+    height: auto;
+    filter: drop-shadow(0 5px 7px #13213b40)
+}
+
+.pokemon-companion span {
+    padding: 6px 9px;
+    border: 1px solid #263c78;
+    border-radius: 99px;
+    background: #fff8d9;
+    color: #263c78;
+    font-size: 7px;
+    font-weight: 700;
+    letter-spacing: 1px
+}
+
+.pokemon-sticker {
+    position: absolute;
+    z-index: 2;
+    right: 10px;
+    bottom: 10px;
+    width: 58px;
+    height: 58px;
+    padding: 4px;
+    border: 2px solid #e84c42;
+    border-radius: 50%;
+    background: #fffdf3e8;
+    object-fit: contain;
+    filter: drop-shadow(0 2px 4px #252b3b30)
+}
+
+.copyright {
+    line-height: 1.8
+}
+
+.asset-credit {
+    grid-column: 1 / -1;
+    justify-self: center;
+    color: var(--muted);
+    font-size: 8px;
+    text-align: center
 }
 
 @media(max-width:640px) {

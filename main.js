@@ -1,49 +1,49 @@
 const extraMenuItems = {
   hot: [
-    ['Vanilla bean flat white', 'Ristretto espresso with silky vanilla milk', '$5.75', 'GLUTEN-FREE'],
-    ['Brown sugar mocha', 'Dark chocolate, espresso, brown sugar', '$6.50', 'GLUTEN-FREE'],
-    ['London fog', 'Earl Grey, steamed milk, house vanilla', '$5.25', 'GLUTEN-FREE'],
-    ['Ceremonial matcha latte', 'Stone-ground matcha whisked to order', '$6.25', 'GLUTEN-FREE'],
-    ['Classic drip coffee', 'Rotating small-lot coffee, freshly brewed', '$3.25', 'VEGAN'],
-    ['Caramel macchiato', 'Espresso, steamed milk, salted caramel', '$6.00', 'GLUTEN-FREE'],
-    ['Hot chocolate', 'Velvety chocolate with whipped cream', '$5.50', 'GLUTEN-FREE'],
-    ['Dirty chai', 'Spiced chai with a double espresso shot', '$6.25', 'GLUTEN-FREE'],
-    ['Americano', 'Double espresso topped with hot water', '$4.00', 'VEGAN'],
+    ['Pikachu Power Flat White', 'Ristretto espresso with silky vanilla milk', '$5.75', 'GLUTEN-FREE'],
+    ['Charizard Cinder Mocha', 'Dark chocolate, espresso, and a cinnamon spark', '$6.50', 'GLUTEN-FREE'],
+    ['Galarian Ponyta London Fog', 'Earl Grey, steamed milk, and house vanilla', '$5.25', 'GLUTEN-FREE'],
+    ['Bulbasaur Garden Matcha', 'Stone-ground matcha whisked to order', '$6.25', 'GLUTEN-FREE'],
+    ["Professor Oak's Daily Brew", 'Rotating small-lot coffee, freshly brewed', '$3.25', 'VEGAN'],
+    ['Jolteon Caramel Macchiato', 'Espresso, steamed milk, and salted caramel', '$6.00', 'GLUTEN-FREE'],
+    ['Snorlax Cozy Cocoa', 'Velvety chocolate topped with whipped cream', '$5.50', 'GLUTEN-FREE'],
+    ['Meowth Dirty Chai', 'Spiced chai with a double espresso shot', '$6.25', 'GLUTEN-FREE'],
+    ["Mew's Mystery Americano", 'Double espresso topped with hot water', '$4.00', 'VEGAN'],
   ],
   cold: [
-    ['Iced honey oat latte', 'Espresso, oat milk, local honey over ice', '$6.50', 'LACTOSE-FREE'],
-    ['Orange espresso tonic', 'Bright espresso with citrus tonic water', '$6.25', 'VEGAN'],
-    ['Iced matcha latte', 'Stone-ground matcha and cold milk', '$6.25', 'GLUTEN-FREE'],
-    ['Brown sugar shaken espresso', 'Shaken espresso, brown sugar, oat milk', '$6.25', 'LACTOSE-FREE'],
-    ['Vanilla cream cold brew', 'Slow-steeped coffee topped with vanilla cream', '$6.25', 'GLUTEN-FREE'],
-    ['Strawberry lemonade', 'Fresh lemon, ripe berries, a little sparkle', '$5.50', 'VEGAN'],
-    ['Iced Americano', 'Double espresso, chilled and poured over ice', '$4.50', 'VEGAN'],
-    ['Coconut cold brew', 'Cold brew finished with creamy coconut milk', '$6.00', 'DAIRY-FREE'],
-    ['Peach iced tea', 'Black tea with a bright peach finish', '$5.25', 'VEGAN'],
-    ['Sparkling yuzu cooler', 'Yuzu citrus and soda over plenty of ice', '$5.75', 'VEGAN'],
+    ['Vaporeon Honey-Oat Latte', 'Espresso, oat milk, and honey over ice', '$6.50', 'LACTOSE-FREE'],
+    ['Rotom Spark Tonic', 'Bright espresso with citrus tonic water', '$6.25', 'VEGAN'],
+    ['Leafeon Iced Matcha', 'Stone-ground matcha and cold milk', '$6.25', 'GLUTEN-FREE'],
+    ['Pikachu Shaken Espresso', 'Shaken espresso, brown sugar, and oat milk', '$6.25', 'LACTOSE-FREE'],
+    ['Glaceon Cream Cold Brew', 'Slow-steeped coffee topped with vanilla cream', '$6.25', 'GLUTEN-FREE'],
+    ['Jigglypuff Berry Lemonade', 'Fresh lemon, ripe berries, and a little sparkle', '$5.50', 'VEGAN'],
+    ['Zapdos Iced Americano', 'Double espresso, chilled and poured over ice', '$4.50', 'VEGAN'],
+    ['Squirtle Coconut Cold Brew', 'Cold brew finished with creamy coconut milk', '$6.00', 'DAIRY-FREE'],
+    ['Psyduck Peach Tea', 'Black tea with a bright peach finish', '$5.25', 'VEGAN'],
+    ['Lapras Yuzu Cooler', 'Yuzu citrus and soda over plenty of ice', '$5.75', 'VEGAN'],
   ],
   snacks: [
-    ['Almond croissant', 'Twice-baked with almond cream and toasted almonds', '$5.25', 'VEGETARIAN'],
-    ['Blueberry lemon scone', 'Tender, buttery, with fresh lemon zest', '$4.25', 'VEGETARIAN'],
-    ['Banana bread', 'Toasted walnuts and a little cinnamon', '$4.50', 'VEGETARIAN'],
-    ['Jammy thumbprint cookie', 'Brown butter cookie with berry jam', '$3.25', 'VEGETARIAN'],
-    ['Avocado toast', 'Sourdough, smashed avocado, chilli crunch', '$9.50', 'VEGAN'],
-    ['Ham & cheddar croissant', 'Flaky pastry with sharp cheddar and ham', '$7.50', 'NON-VEGETARIAN'],
-    ['Lemon poppyseed loaf', 'Soft citrus loaf with a lemon glaze', '$4.50', 'VEGETARIAN'],
-    ['Raspberry oat bar', 'Raspberry preserves on a buttery oat base', '$4.00', 'VEGETARIAN'],
-    ['Chocolate chip cookie', 'Crisp edges, soft middle, sea salt', '$3.50', 'VEGETARIAN'],
+    ['Alcremie Almond Croissant', 'Twice-baked with almond cream and toasted almonds', '$5.25', 'VEGETARIAN'],
+    ['Fidough Blueberry Scone', 'Tender, buttery, with fresh lemon zest', '$4.25', 'VEGETARIAN'],
+    ['Tropius Banana Bread', 'Toasted walnuts and a little cinnamon', '$4.50', 'VEGETARIAN'],
+    ['Greedent Berry Cookie', 'Brown-butter cookie with a sweet berry jam center', '$3.25', 'VEGETARIAN'],
+    ["Bulbasaur's Garden Toast", 'Sourdough, smashed avocado, and chilli crunch', '$9.50', 'VEGAN'],
+    ['Team Rocket Ham & Cheddar Croissant', 'Flaky pastry with sharp cheddar and ham', '$7.50', 'NON-VEGETARIAN'],
+    ['Appletun Lemon Poppy Loaf', 'Soft citrus loaf with a lemon glaze', '$4.50', 'VEGETARIAN'],
+    ['Cherubi Raspberry Oat Bar', 'Raspberry preserves on a buttery oat base', '$4.00', 'VEGETARIAN'],
+    ['Munchlax Chocolate Chip Cookie', 'Crisp edges, soft middle, a pinch of sea salt', '$3.50', 'VEGETARIAN'],
   ],
   seasonal: [
-    ['Pumpkin spice latte', 'Espresso, pumpkin, warming autumn spices', '$6.75', 'GLUTEN-FREE'],
-    ['Cranberry orange scone', 'Tart cranberries, orange zest, vanilla glaze', '$4.75', 'VEGETARIAN'],
-    ['Gingerbread latte', 'Espresso with ginger, cinnamon, and clove', '$6.50', 'GLUTEN-FREE'],
-    ['Pear & cardamom danish', 'Seasonal pear in a flaky cardamom pastry', '$5.75', 'VEGETARIAN'],
-    ['Peppermint mocha', 'Dark chocolate, espresso, cool peppermint', '$6.75', 'GLUTEN-FREE'],
-    ['Maple pecan muffin', 'Toasted pecans and local maple syrup', '$4.75', 'VEGETARIAN'],
-    ['Winter citrus tea', 'Black tea steeped with orange and spice', '$5.25', 'VEGAN'],
-    ['Salted caramel steamer', 'Warm milk with house salted caramel', '$5.50', 'GLUTEN-FREE'],
-    ['Spiced apple cider', 'Warm pressed apple with cinnamon and clove', '$5.25', 'VEGAN'],
-    ['Cranberry bliss bar', 'White chocolate, cranberries, orange icing', '$5.00', 'VEGETARIAN'],
+    ['Pumpkaboo Harvest Latte', 'Espresso, pumpkin, and warming autumn spices', '$6.75', 'GLUTEN-FREE'],
+    ['Vanillish Cranberry Scone', 'Tart cranberries, orange zest, and vanilla glaze', '$4.75', 'VEGETARIAN'],
+    ['Gengar Gingerbread Latte', 'Espresso with ginger, cinnamon, and clove', '$6.50', 'GLUTEN-FREE'],
+    ['Appletun Pear & Cardamom Danish', 'Seasonal pear in a flaky cardamom pastry', '$5.75', 'VEGETARIAN'],
+    ['Alolan Vulpix Peppermint Mocha', 'Dark chocolate, espresso, and cool peppermint', '$6.75', 'GLUTEN-FREE'],
+    ['Sawsbuck Maple Pecan Muffin', 'Toasted pecans and local maple syrup', '$4.75', 'VEGETARIAN'],
+    ['Froslass Winter Citrus Tea', 'Black tea steeped with orange and spice', '$5.25', 'VEGAN'],
+    ['Slurpuff Salted Caramel Steamer', 'Warm milk with house salted caramel', '$5.50', 'GLUTEN-FREE'],
+    ['Growlithe Spiced Apple Cider', 'Warm pressed apple with cinnamon and clove', '$5.25', 'VEGAN'],
+    ['Vanilluxe Cranberry Bliss Bar', 'White chocolate, cranberries, and orange icing', '$5.00', 'VEGETARIAN'],
   ],
 };
 
@@ -77,13 +77,28 @@ Object.entries(extraMenuItems).forEach(([category, items]) => {
 
 const tabs = document.querySelectorAll('.menu-tabs button');
 const cards = document.querySelectorAll('.menu-card');
+const pokemonSpriteIds = [
+  25, 52, 4, 7, 133, 175, 909, 150, 6, 841,
+  25, 6, 77, 1, 151, 135, 143, 52, 151,
+  134, 479, 470, 25, 471, 39, 145, 7, 54, 131,
+  869, 926, 357, 820, 1, 52, 841, 420, 446,
+  710, 582, 94, 841, 37, 586, 478, 685, 58, 584,
+];
 
-cards.forEach((card) => {
+cards.forEach((card, index) => {
+  const sprite = document.createElement('img');
+  sprite.className = 'pokemon-sticker';
+  sprite.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemonSpriteIds[index]}.png`;
+  sprite.alt = '';
+  sprite.setAttribute('aria-hidden', 'true');
+  sprite.loading = 'lazy';
+  card.querySelector('.card-image').append(sprite);
+
   const addButton = document.createElement('button');
   addButton.className = 'add-to-order';
   addButton.type = 'button';
-  addButton.textContent = 'Add to order +';
-  addButton.setAttribute('aria-label', `Add ${card.querySelector('h3').textContent} to your order`);
+  addButton.textContent = 'Add to pack +';
+  addButton.setAttribute('aria-label', `Add ${card.querySelector('h3').textContent} to your trainer pack`);
   card.append(addButton);
 });
 
@@ -118,7 +133,7 @@ const money = (cents) => `$${(cents / 100).toFixed(2)}`;
 
 let cart = new Map();
 try {
-  const savedCart = JSON.parse(localStorage.getItem('goodDayCart') || '[]');
+  const savedCart = JSON.parse(localStorage.getItem('pokeCafeCart') || '[]');
   savedCart.forEach((item) => {
     if (item && typeof item.name === 'string' && Number.isInteger(item.price) && item.price > 0 && Number.isInteger(item.quantity) && item.quantity > 0) {
       cart.set(item.name, { ...item, quantity: Math.min(item.quantity, 99) });
@@ -130,7 +145,7 @@ try {
 
 function saveCart() {
   try {
-    localStorage.setItem('goodDayCart', JSON.stringify([...cart.values()]));
+    localStorage.setItem('pokeCafeCart', JSON.stringify([...cart.values()]));
   } catch {
     // The order remains usable if browser storage is unavailable.
   }
@@ -202,7 +217,7 @@ cards.forEach((card) => {
     card.querySelector('.add-to-order').textContent = 'Added ✓';
     window.setTimeout(() => {
       const button = card.querySelector('.add-to-order');
-      if (button) button.textContent = 'Add to order +';
+      if (button) button.textContent = 'Add to pack +';
     }, 1200);
   });
 });
@@ -211,7 +226,7 @@ function showCart() {
   cartView.hidden = false;
   checkoutForm.hidden = true;
   confirmation.hidden = true;
-  document.querySelector('#order-title').textContent = 'Your order';
+  document.querySelector('#order-title').textContent = 'Trainer pack';
 }
 
 document.querySelectorAll('.order-open').forEach((button) => button.addEventListener('click', () => {
@@ -254,7 +269,7 @@ checkoutForm.addEventListener('submit', (event) => {
   cartView.hidden = true;
   checkoutForm.hidden = true;
   confirmation.hidden = false;
-  document.querySelector('#order-title').textContent = 'Order confirmed';
+  document.querySelector('#order-title').textContent = 'Pack ready';
 });
 document.querySelector('.finish-order').addEventListener('click', () => orderDialog.close());
 
